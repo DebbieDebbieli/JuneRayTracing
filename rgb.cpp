@@ -1,11 +1,5 @@
 #include "rgb.h"
-#include <math.h>
-
-const float TOL = 1e-6;
-bool isZero(float val, float tol = TOL)
-{
-    return fabs(val - TOL) < 0.0f;
-}
+#include "mathUtil.h"
 
 rgb::rgb():_r(0), _g(0), _b(0)
 {}
