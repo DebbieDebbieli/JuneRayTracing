@@ -13,6 +13,8 @@ set(JuneRayTracing_SRCS
     "Image.cpp"
     "Vector3.cpp"
     "ONB.cpp"
+    "DynArray.h"
+    "RNG.cpp"
     "JuneRayTracing.cpp")
 
 add_executable(JuneRayTracing WIN32 ${JuneRayTracing_SRCS})
