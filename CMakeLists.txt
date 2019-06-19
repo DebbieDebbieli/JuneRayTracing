@@ -11,6 +11,8 @@ set(CMAKE_CXX_COMPILER "g++")
 set(JuneRayTracing_SRCS
     "rgb.cpp"
     "Image.cpp"
+    "Vector3.cpp"
+    "ONB.cpp"
     "JuneRayTracing.cpp")
 
 add_executable(JuneRayTracing WIN32 ${JuneRayTracing_SRCS})
